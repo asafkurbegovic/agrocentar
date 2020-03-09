@@ -1,0 +1,168 @@
+html,
+body,
+.cover {
+    height: 100%;
+    font-weight: bold;
+    background-color:#e2e2e9;
+}
+
+
+
+.cover {
+    background:url(images/milk.png) top left no-repeat;
+    background-size:cover;
+    display: table;
+    width: 100%;
+    content:"Dobro dosli na našu stranicu";
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    vertical-align: center;
+}
+
+
+
+.cover-text{
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    color: white;
+}
+
+.cover-text::after{
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    color: white;
+    
+}
+
+.map-container{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+
+
+.map-container iframe{
+left:0px;
+top:0px;
+height:100%;
+width:100%;
+position:absolute;
+}
+
+footer {
+    
+    -webkit-box-shadow: 0px 0px 12px rgba(0,0,0,.8);
+              -moz-box-shadow: 0px 0px 12px rgba(0,0,0,.8);
+                         box-shadow: 0px 0px 12px rgba(0,0,0,.8);
+    overflow: auto;
+
+    margin-top: 25px;
+}
+
+.row{
+    padding-top: 20px;
+    text-align: center;
+    font-family:sans-serif;
+    font-size: 18px;
+    color: darkgray;
+
+}
+
+
+#copy {
+    color:darkgray;
+    text-align: center;
+}
+
+
+#logo {
+    
+    max-width: 100%;
+    height: auto;
+}
+
+.map{
+    padding-top: 20px;
+}
+
+.putodfarme {
+    margin-top:0px;
+    text-align: center;
+    
+}
+.naslov{
+    margin-top:110px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#kontakt{
+    margin-top: 130px;
+    margin-bottom: px;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+#proizvodi{
+    /*margin:auto;*/
+    justify-content: center;
+    overflow: hidden;
+    width: 50%;
+    display: flex;
+    margin-bottom: 70px;
+}
+.pricaprica{
+    margin-top: 50px;
+}
+.josmalo{
+    margin-top: 50px;
+}
+.container{
+    font-family: 'Varela Round', sans-serif;
+}
+
+.imagecover {
+    top: 50%;
+    left: 50%;
+    
+    margin:-60px 0 0 -60px;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 5s linear infinite;
+}
+
+@keyframes spin { 100% {
+    transform:rotateY(360deg);
+    transform: translate3d(1,1,1,45deg); } 
+}
+
+#naslovtxt{
+    letter-spacing: 7px;
+    text-shadow: 2px 2px black;
+    font-size: 70px;
+}
+
+#vision{
+    margin-top:50px;
+}
+
+#strategy{
+    margin-top:50px; 
+    margin-bottom:50px;
+}
+input{
+    margin:5px;
+    padding: 5px;
+}
+.tipka{
+    margin-top: 20px;
+}
